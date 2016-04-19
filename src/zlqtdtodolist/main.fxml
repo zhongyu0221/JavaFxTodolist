@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane prefHeight="674.0" prefWidth="713.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <MenuBar layoutX="0.0" layoutY="0.0" minHeight="14.0" prefHeight="25.000099999997474" prefWidth="713.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Open" />
+            <MenuItem mnemonicParsing="false" text="Save" />
+            <MenuItem mnemonicParsing="false" text="Close" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="关于" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <Label layoutX="35.0" layoutY="41.0" prefHeight="26.0" prefWidth="61.0" text="Name:" />
+    <Label layoutX="35.0" layoutY="84.0" text="Date:" />
+    <Label layoutX="35.0" layoutY="188.0" text="Details:" />
+    <TextField layoutX="125.0" layoutY="41.0" prefWidth="200.0" />
+    <TextField layoutX="125.0" layoutY="84.0" prefWidth="200.0" />
+    <Label layoutX="29.0" layoutY="132.0" text="Catalogies:" />
+    <ChoiceBox layoutX="125.0" layoutY="127.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="项 1" />
+          <String fx:value="项 2" />
+          <String fx:value="项 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <Button layoutX="465.0" layoutY="609.0" mnemonicParsing="false" text="Save" />
+    <Button layoutX="528.0" layoutY="609.0" mnemonicParsing="false" text="Clear" />
+    <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="125.0" layoutY="188.0" minWidth="321.0" prefHeight="382.0" prefWidth="557.0" />
+  </children>
+</AnchorPane>
