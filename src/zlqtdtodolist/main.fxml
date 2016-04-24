@@ -8,7 +8,7 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.web.*?>
 
-<AnchorPane prefHeight="674.0" prefWidth="713.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+<AnchorPane prefHeight="674.0" prefWidth="713.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="zlqtdtodolist.MainController">
   <children>
     <MenuBar layoutX="0.0" layoutY="0.0" minHeight="14.0" prefHeight="25.000099999997474" prefWidth="713.0">
       <menus>

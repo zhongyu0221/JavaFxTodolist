@@ -5,10 +5,24 @@
  */
 package zlqtdtodolist;
 
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.fxml.Initializable;
+
 /**
  *
  * @author zli
  */
-public class mainController {
+public class mainController implements Initializable {
+    
+@Override
+public void initialize(URL url, ResourceBundle rb)
+{
+
+}
+
+@FXML
+Button 
+
     
 }
